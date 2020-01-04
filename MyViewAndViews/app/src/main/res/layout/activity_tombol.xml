@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF2BE"
+    tools:context=".TombolActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6C5B7B"
+            android:scaleType="fitXY">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="@dimen/activity_horizontal_layout"
+                android:layout_marginLeft="@dimen/activity_horizontal_layout"
+                android:text="Donasi Pesawat R-80"
+                android:textColor="@android:color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:background="#6C5B7B"
+                android:padding="25dp"
+                android:drawablePadding="10dp"/>
+        </FrameLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Nama Anda"
+               android:textColor="@android:color/black"
+               android:layout_marginLeft="@dimen/activity_vertical_layout"
+               android:layout_marginRight="@dimen/activity_vertical_layout"
+               android:layout_marginBottom="@dimen/activity_horizontal_layout"
+               android:layout_marginTop="20dp"
+               android:textStyle="bold"/>
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:singleLine="true"
+               android:lines="1"
+               android:layout_marginRight="@dimen/activity_vertical_layout"
+               android:layout_marginLeft="@dimen/activity_vertical_layout"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Alamat Email"
+               android:textColor="@android:color/black"
+               android:layout_marginLeft="@dimen/activity_vertical_layout"
+               android:layout_marginRight="@dimen/activity_vertical_layout"
+               android:layout_marginBottom="@dimen/activity_horizontal_layout"
+               android:layout_marginTop="20dp"
+               android:textStyle="bold"/>
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:singleLine="true"
+               android:lines="1"
+               android:layout_marginRight="@dimen/activity_vertical_layout"
+               android:layout_marginLeft="@dimen/activity_vertical_layout"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Jumlah Donasi"
+               android:textColor="@android:color/black"
+               android:layout_marginLeft="@dimen/activity_vertical_layout"
+               android:layout_marginRight="@dimen/activity_vertical_layout"
+               android:layout_marginBottom="@dimen/activity_horizontal_layout"
+               android:layout_marginTop="20dp"
+               android:textStyle="bold"/>
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:singleLine="true"
+               android:lines="1"
+               android:layout_marginRight="@dimen/activity_vertical_layout"
+               android:layout_marginLeft="@dimen/activity_vertical_layout"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Tambah Catatan"
+               android:textColor="@android:color/black"
+               android:layout_marginLeft="@dimen/activity_vertical_layout"
+               android:layout_marginRight="@dimen/activity_vertical_layout"
+               android:layout_marginBottom="@dimen/activity_horizontal_layout"
+               android:layout_marginTop="20dp"
+               android:textStyle="bold"/>
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="125dp"
+               android:singleLine="true"
+               android:lines="1"
+               android:background="@drawable/box"
+               android:layout_marginRight="@dimen/activity_vertical_layout"
+               android:layout_marginLeft="@dimen/activity_vertical_layout"/>
+
+       </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_bayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pembayaran"
+            android:textStyle="bold"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="@dimen/activity_vertical_layout"
+            android:layout_marginRight="@dimen/activity_vertical_layout"
+            android:layout_marginBottom="@dimen/activity_horizontal_layout"
+            android:background="@drawable/tombol_bulat"/>
+
+    </LinearLayout>
+
+</ScrollView>
